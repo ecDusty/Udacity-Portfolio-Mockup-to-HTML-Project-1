@@ -1,39 +1,74 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Project 1 : Mockup</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="row"><!--Page Title-->
-                <div class="col-md-12 text-center">
-                    <h1 class="megatitle">Orange Udacity Mug</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5 startpad"><!--Left Content Column-->
-                    <img class="mug-width" src="images/mug.png" alt="Responsive Image of a Orange Udacity Mug">
-                    <div class="feat-out-padding"><!--Creates an outer box which can compress the size of the bordered box this div contains-->
-                        <div class="feat-box"><!--The Box-->
-                            <h2>Main Features</h2>
-                            <ul class="text-large">
-                                <li class="li-start-pad">Holds your favorite drink</li>
-                                <li>Energizing color</li>
-                                <li class="li-end-pad">Reminds you to learn</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7"><!--Right Content Column-->
-                    <h2>A Good Way to Start a Day</h2>
-                    <p class="startpad text-large">Bacon ipsum dolor sit amet shoulder drumstick spare ribs shank, magna in sirloin. Turducken dolore tempor irure tenderloin pork belly shankle. Excepteur in strip steak pork chop voluptate tongue, hamburger nostrud kevin enim nulla ut cow incididunt. Do pancetta swine hamburger incididunt in excepteur irure pig labore est venison dolor ex adipisicing. Labore capicola veniam, commodo corned beef ut non rump swine pork chop exercitation ball tip ham deserunt.</p>
-                    <p class="text-large">Ad tri-tip short loin anim beef ribs eu ball tip velit deserunt frankfurter sunt nisi filet mignon. Pork loin quis ham hock mollit cupidatat. Id ground round chuck jerky meatball laborum frankfurter short loin in biltong t-bone doner ea irure. Culpa ex ut id. Nostrud t-bone bresaola pariatur qui tri-tip pork chop, ribeye irure velit pork et in dolore.</p>
-                    <p class="text-large">Bacon in sunt dolor fatback excepteur turkey chuck velit proident frankfurter quis. Nisi shank sirloin sed tenderloin. Magna short ribs kielbasa biltong minim. In esse t- bone est tail kielbasa dolor ullamco tongue mollit sint sirloin chuck venison anim. Short ribs dolore adipisicing, bresaola venison cupidatat short loin turducken biltong leberkas andouille elit ad in occaecat. Ground round pariatur cupidatat ham hock magna tempor ea jowl duis.</p>
-                </div>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Humans vs Machines Blog</title>
+  <style>
+    /* General Styles */
+    * {
+      box-sizing: border-box
+    }
+
+    .justify {
+      text-align: justify;
+    }
+
+    /* Article Styles */
+    .container {
+      width: 100%;
+      max-width: 945px;
+      padding: 0 20px;
+      margin: 70px auto;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+    }
+
+    .article-image {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .breaking {
+      max-width: 880px;
+      width:100%;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- This was adapted from: http://blog.udacity.com/2016/03/humans-vs-machines-an-ai-odyssey-2.html -->
+  <!-- Format this text to match the mockup exactly! -->
+  <!-- TO DO: Next time finish the Nano-Degree in time, instead of stopping after getting hired -->
+  <article class="container">
+    <h1>Humans vs. Machines: An AI Odyssey</h1>
+    
+    <p>By <b><i>Christopher Watkins</i></b></p>
+    
+    <p>March 10, 2016</p>
+    
+    <p class="justify breaking"><i>***<b>Breaking News: AlphaGo has won the first two matches!</b>*** In this, the third in our series on the epic Go matches being played between AlphaGo (Google’s Artificial Intelligence software) and Lee Se-Dol (Current Go World Champion), we look at the history of Humans vs. Machines, and the innovations that have led us to this incredible moment in time.</i></p>
+
+    <img src="http://i2.wp.com/blog.udacity.com/wp-content/uploads/2016/03/56df2490a351d802222160.gif" alt="Humans vs Machines: An AI Odyssey" class="article-image">
+
+    <p>For as long as humans have built things, we’ve wrestled with the implications of what we’ve built. In many cases, these philosophical and ethical wrestlings have made for great drama—think Frankenstein, or 2001: A Space Odyssey. Often, the hypothetical scenarios we envision come remarkably close to true, and the discoveries we’ve made in the fields of Artificial Intelligence and Machine Learning make clear that a “computer with a mind of its own” is <strike>going to take over the world</strike> not such a fantastic thing to imagine any longer.</p>
+
+    <h2>The Triumph Of Deep Blue</h2>
+
+    <p>Perhaps this is why we are so captivated by human vs. machine competitions, because the idea of being overcome by that which we’ve created speaks to something very deep within our collective consciousness. When IBM’s Deep Blue faced off against Garry Kasparov1, the event resulted in more than <a href="http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/">three billion impressions</a> around the world, and when IBM’s later creation Watson challenged the champions on Jeopardy, millions of viewers were glued to the proceedings.</p>
+
+    <h2>DeepMind’s AlphaGo</h2>
+
+    <p>Taking place right now, there is an event that, while not likely to scale the same media heights, may in fact have far greater implications when it comes to the future of “intelligent” machines. On March 9, in Seoul, South Korea, a computing system know as AlphoGo (built by researchers at DeepMind—a Google Artificial Intelligence lab) began <a href="http://venturebeat.com/2016/02/04/youtube-will-livestream-googles-ai-playing-go-superstar-lee-sedol-in-march/">a five-game match</a> against Lee Se-dol, one of the very best players in the world at the ancient game of Go.</p>
+
+    <p>Why is this so significant?</p>
+    
+    <p>Here is how the DeepMind team explained it in their paper <a href="http://airesearch.com/wp-content/uploads/2016/01/deepmind-mastering-go.pdf">Mastering the Game of Go with Deep Neural Networks and Tree Search</a>:</p>
+    <p><i>The game of Go has long been viewed as the most challenging of classic games for artificial intelligence due to its enormous search space and the difficulty of evaluating board positions and moves.</i></p>
+    <p>Put another way, winning at Go is a kind of Holy Grail for those who strive to create machines that can “think” on their own, because success at this uniquely complex game seems to require something more than just skill, knowledge, and experience. It requires intuition. Feel. Style. Characteristics we associate with humans, not with machines.</p>
+    <hr>
+    <p><sup>1</sup> Garry Kasparov is a Russian chess Grandmaster and former World Chess Champion</p>
+  </article>
+</body>
 </html>

@@ -1,0 +1,18 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+##Getting Back into the game
+
+Hi there Udacity team. Well I'm going back through my Udacity degree to get my Nano Degree. I did the unfortunate desicion of not completing this degree after I got hired. The carier
+
+  1) Learned that there is a strikethrough element and you use it with <strike> or <s>
+  2) Building the HTML structure for the page.
+  3) First, making sure the site is responsive. Second, deciding whether or not I'm aloud to use a separately linked CSS file or just have the CSS inlined in the **head** element. Decided to go with the inlined CSS.
+  4) Search through documentation to find the strikethrough element on MDN

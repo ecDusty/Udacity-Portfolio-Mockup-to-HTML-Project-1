@@ -1,0 +1,60 @@
+/* Page Rules */
+.container {
+    margin: 25px 25px 0 27px;
+}
+
+body {
+    font-family: "verdana", sans-serif;
+    color: #666;
+}
+
+/* Title */
+.megatitle {
+    font-size: 48px;
+}
+
+/* Content */
+h2 {
+    color: #f07c17;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-large {
+    font-size: 16px;
+}
+
+.startpad {
+    padding-top: 20px;
+}
+
+p {
+    line-height: 200%;
+}
+
+.mug-width {
+    width:100%;
+    max-width: 374px;
+}
+
+/* Feature Box */
+.feat-out-padding {
+    padding-top: 30px;
+}
+
+.feat-box {
+    border: 1px solid #ccc;
+    padding: 10px 0 0 30px;
+}
+
+li {
+    line-height: 200%;
+}
+
+.li-start-pad {
+    padding-top: 20px;
+}
+
+.li-end-pad {
+    padding-bottom: 30px;
+}
